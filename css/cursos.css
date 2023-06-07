@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+#cursos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+  border: none;
+  background-color: white;
+  color: black;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.card-link {
+  display: block;
+  color: red;
+  font-weight: bold;
+}
+
+.card-link:hover {
+  text-decoration: none;
+}
+
+.text-center {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
