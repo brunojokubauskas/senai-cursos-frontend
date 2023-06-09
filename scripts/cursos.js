@@ -48,7 +48,11 @@ $(document).ready(function() {
           </div>
         </div>
       `;
-      cursosContainer.append(cursoCard);
+      const cardElement = $(cursoCard);
+      cardElement.on("click", function() {
+        window.location.href = `detalhes.html?curso=${encodeURIComponent(curso.nome)}`;
+      });
+      cursosContainer.append(cardElement);
     });
   }
 });
